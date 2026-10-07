@@ -7,3 +7,5 @@ export interface Meetup {
 }
 
 export type NewMeetupData = Omit<Meetup, 'id'>;
+
+export type MeetupListItem = Omit<Meetup, 'description'>;
